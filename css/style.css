@@ -86,7 +86,8 @@ a:visited  {
 /* 中部表格 */
 #middle_table {
     width: 100%;
-    height: 60%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* 中部表格 - 左列 */
@@ -95,7 +96,6 @@ a:visited  {
     height: 100%;
     vertical-align: top;
     padding-left: 30px;
-    padding-top: 30px;
 }
 
 /* 中部表格 - 右列 */
@@ -104,7 +104,6 @@ a:visited  {
     height: 100%;
     vertical-align: top;
     padding-right: 30px;
-    padding-top: 30px;
 }
 
 .app_logo {
@@ -113,9 +112,9 @@ a:visited  {
     padding-right: 10px;
 }
 
-.app_private_policy {
-    width: 24px;
-    height: 24px;
+.app_privacy_policy {
+    width: 20px;
+    height: 20px;
 }
 
 #middle_table_td_name {
@@ -173,76 +172,45 @@ a:visited  {
     vertical-align: top;
 }
 
-/** 详情页 ****************************************************/
-.detail_emoji {
-    font-size: 88px;
+/** privacy Policy ****************************************************/
+#privacy_policy_title {
+    font-size: 28px;
+    font-weight: 600;
     text-align: center;
+    color: #222222;
+    margin-top: 50px;
+}
+
+#privacy_policy_table {
+    width: 100%;
     margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.detail_linebar {
-    width: 100%;
-    height: 4px;
-    margin-top: 40px;
-    background-color: #00A69C;
+#privacy_policy_section_title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222222;
+    padding-top:30px;
 }
 
-.detail_titlebar {
-    width: 100%;
-    height: 40px;
-    background-color: #2B353E;
-    text-align: center;
-}
-
-.detail_section_title {
-    font-size: 24px;
-    color: #FFFFFF;
-    line-height: 40px;
-    margin-left: 10px;
-}
-
-/* 表格 */
-#detail_table {
-    width: 100%;
-    border-collapse: collapse;
-    border-color: #E0E0E0;
+#privacy_policy_section_content {
     font-size: 18px;
-    text-align: center;
-    table-layout: fixed;
-    background-color: #F2F3F7;
+    color: #363636;
+    padding-top:10px;
 }
 
-#detail_table_row {
-    height: 60px;
+#privacy_policy_section_link {
+    font-size: 18px;
+    color: #363636;
+    padding-top:5px;
+    text-decoration: underline;
 }
 
-#detail_table_td_left {
-    text-align: right;
-    padding-right: 10px;
-    width: 140px;
+#privacy_policy_section_list {
+    font-size: 18px;
+    color: #363636;
+    padding-top:2px;
 }
-
-#detail_table_td_right {
-    text-align: left;
-    padding-left: 10px;
-    word-break: break-all;
-}
-
-/** 标签页 ****************************************************/
-#tag_table_row {
-    height: 70px;
-}
-
-#tag_table_td_emoji {
-    width: 100px;
-    text-align: center;
-    font-size: 32px;
-}
-
-#tag_table_td_emoji_name {
-    text-align: left;
-    font-size: 20px;
-    padding-left: 14px;
-}
-
-/** 标签页 ****************************************************/
